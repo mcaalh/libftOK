@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: mravoavy <mravoavy@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2014/11/18 18:49:59 by mravoavy          #+#    #+#              #
-#    Updated: 2014/11/26 11:12:02 by mravoavy         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = libft.a
 
 SRC = ft_bzero.c \
@@ -63,7 +51,8 @@ SRC = ft_bzero.c \
 		ft_strtrim.c \
 		ft_atoi.c \
 		ft_strsplit.c \
-		ft_itoa.c
+		ft_itoa.c \
+		get_next_line.c
 
 SRCO = $(SRC:.c=.o)
 

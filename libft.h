@@ -6,7 +6,7 @@
 /*   By: mravoavy <mravoavy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 15:01:46 by mravoavy          #+#    #+#             */
-/*   Updated: 2014/12/09 12:29:27 by mravoavy         ###   ########.fr       */
+/*   Updated: 2015/03/06 09:42:13 by mravoavy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
+
+# define BUFF_SIZE 42
 
 void				ft_putchar(char c);
 void				ft_putstr(char const *s);
@@ -69,7 +71,7 @@ void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				ft_putnbr_fd(int n, int fd);
-int                 get_next_line(int const fd, char **line);
+int					get_next_line(int const fd, char **line);
 typedef struct		s_list
 {
 	void			*content;
